@@ -72,7 +72,7 @@
      ellipse(bX, bY, sz, sz);
    }
    void checkCollision(){
-     if ((((bX-mouseX< 0.01)&&(bX-mouseX>-0.01))||((bY-mouseY<0.01)&&(bY-mouseY>-0.01)))== true){
+     if ((((bX-mouseX< 0.05)&&(bX-mouseX>-0.05))||((bY-mouseY<0.05)&&(bY-mouseY>-0.05)))== true){
        gameState = false;
      } else{
        gameState = true;
